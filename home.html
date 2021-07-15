@@ -2,7 +2,7 @@
 <html lang="en"> 
 <link rel="stylesheet" type="text/css" href="style.css">
 
-<head role="banner"> <!--role="banner".-->
+<head role="banner">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;700&display=swap" rel="stylesheet">
@@ -12,65 +12,65 @@
     <title>HomePage</title>
 </head>
 <body>
-    <h1>ประวัติส่วนตัว</h1>
-    <img src="050.jpg"  alt="It is my picture "  style="width:215px;height:385px;">
+    <h1 tabindex="0">ประวัติส่วนตัว</h1>
+    <img src="050.jpg"  alt="It is my picture "  style="width:215px;height:385px;" tabindex="0">
     <main role="main">
-    <p>ชื่อ นายจตุมงคล แสงพุ่ม</p>
-    <p>Facebook : <a href="https://www.facebook.com/jatumongkon.sangpum/">Jatumongkhon Saengphum</a></p> 
+    <p tabindex="0">ชื่อ นายจตุมงคล แสงพุ่ม</p>
+    <p tabindex="0">Facebook : <a href="https://www.facebook.com/jatumongkon.sangpum/">Jatumongkhon Saengphum</a></p> 
     
-    <h2>ประวัติการศึกษา</h2>
+    <h2 tabindex="0">ประวัติการศึกษา</h2>
 <table>
   <tr>
-    <th>ระดับ</th>
-    <th>สถานศึกษา</th>
+    <th tabindex="0">ระดับ</th>
+    <th tabindex="0">สถานศึกษา</th>
     
   </tr>
   <tr>
-    <td>ประถมศึกษา</td>
-    <td>โรงเรียนดรุณศึกษา</td>
+    <td tabindex="0">ประถมศึกษา</td>
+    <td tabindex="0">โรงเรียนดรุณศึกษา</td>
     
   </tr>
   <tr>
-    <td>มัธยมศึกษา</td>
-    <td>โรงเรียนสตรทุ่งสง</td>
+    <td tabindex="0">มัธยมศึกษา</td>
+    <td tabindex="0">โรงเรียนสตรทุ่งสง</td>
     
   </tr>
   <tr>
-    <td>ปัจจุบัน</td>
-    <td>มหาวิทยาลัยสงขลานครินทร์</td>
+    <td tabindex="0">ปัจจุบัน</td>
+    <td tabindex="0">มหาวิทยาลัยสงขลานครินทร์</td>
     
   </tr>
 </table>
-<h1> try to test  ARIA  First Time</h1>
-<video controls="video test  ARIA" width="640" height="480" >
+<h1 tabindex="0"> try to test  ARIA  First Time</h1>
+<video controls="video test  ARIA" width="640" height="480" tabindex="0">
   <source src="video.mp4" type="video/mp4">
   <track label="English" kind="subtitles" srclang="en" src="captions/vtt/sintel-en.vtt" default>
   
 </video>
 <br>
 
-<audio controls="audio test  ARIA">
+<audio controls="audio test  ARIA" tabindex="0">
   <source src="horse.ogv" type="audio/ogg">
 Your browser does not support the audio element.
 </audio>
 
 
 <article role="article"> <!--role="article"-->
-  <h2>Profile</h2>
-  <p>Student ID:6110110050 </p>
-  <p>Major :Computer Engineering</p>
-  <p>Department :Department of Computer Engineering  </p>
-  <p>University:Prince of Songkla University Hat Yai Campus</p>
+  <h2 tabindex="0">Profile</h2>
+  <p tabindex="0">Student ID:6110110050 </p>
+  <p tabindex="0">Major :Computer Engineering</p>
+  <p tabindex="0">Department :Department of Computer Engineering  </p>
+  <p tabindex="0">University:Prince of Songkla University Hat Yai Campus</p>
 
 </article>
 
 <button role="button" type="button" onclick="alert('Hello world!')">Click Me!</button> <!--role="button"-->
 
 <form>
-  <label for="fname">First name:</label><br>
-  <input  aria-required="true" type="text" id="fname" name="fname"><br>
-  <label for="lname">Last name:</label><br>
-  <input aria-required="true"  type="text" id="lname" name="lname">
+  <label for="fname" tabindex="0">First name:</label><br>
+  <input  aira-placeholder="Input your first name" aria-required="true" type="text" id="fname" name="fname" tabindex="0"><br>
+  <label for="lname" tabindex="0">Last name:</label><br>
+  <input  aira-placeholder="Input your last name" aria-required="true"  type="text" id="lname" name="lname" tabindex="0">
 </form>
 <nav>
    ใช้งาน tag nav
@@ -81,7 +81,7 @@ Your browser does not support the audio element.
 
 
 
-<footer role="contentinfo"> <!-- role="contentinfo"-->
+<footer role="contentinfo" tabindex="0"> <!-- role="contentinfo"-->
   <p>240-420 Web Eng & Apps</p>
 </footer> 
 
