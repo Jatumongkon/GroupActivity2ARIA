@@ -63,9 +63,10 @@
 </table>
 <h1> try to test  ARIA  First Time</h1>
 
-<video width="640" height="480" controls>
+<video controls="test  ARIA" width="640" height="480" >
   <source src="video.mp4" type="video/mp4">
-  <p>Your browser doesn't support HTML5 video. Here is a <a href="rabbit320.mp4">link to the video</a> instead.</p>
+  <track label="English" kind="subtitles" srclang="en" src="captions/vtt/sintel-en.vtt" default>
+  
 </video>
 
 <article role="article"> <!--role="article"-->
@@ -79,7 +80,21 @@
 
 <button role="button" type="button" onclick="alert('Hello world!')">Click Me!</button> <!--role="button"-->
 
+<form>
+  <label for="fname">First name:</label><br>
+  <input  aria-required="true" type="text" id="fname" name="fname"><br>
+  <label for="lname">Last name:</label><br>
+  <input aria-required="true"  type="text" id="lname" name="lname">
+</form>
+<nav>
+   ใช้งาน tag nav
+</nav>
+
+
 </main>
+
+
+
 <footer style="background-color:LightSalmon;"  role="contentinfo"> <!-- role="contentinfo"-->
   <p>240-420 Web Eng & Apps</p>
 </footer> 
