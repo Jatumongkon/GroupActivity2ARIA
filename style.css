@@ -1,0 +1,65 @@
+body {
+    background-color: lightblue;
+  }
+  
+  h1 {
+    font-family: 'Prompt';
+    color: hotpink;
+    text-align: center;
+  }
+
+  video, audio {
+    display: block;
+    margin: 0 auto;
+  }
+
+  h2,nav {
+    font-family: 'Prompt';
+    color: hotpink;
+  }
+  
+  p {
+    font-family: 'Prompt';
+    font-size: 20px;
+  }
+
+  button {
+    background-color: hotpink; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+
+  form {
+    font-family: 'Prompt';
+    }
+
+  table {
+    font-family: 'Prompt';
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+
+  img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+    footer {
+        background-color: hotpink;
+    }
